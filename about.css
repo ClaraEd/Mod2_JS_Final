@@ -1,0 +1,137 @@
+body {
+  text-align: center;
+}
+
+/* Header Styles */
+.header-box {
+  background-color: rgb(38, 90, 91);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizontal-nav {
+  text-align: center;
+}
+
+.horizontal-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.horizontal-nav ul li {
+  display: inline;
+  padding: 0;
+}
+
+.horizontal-nav ul li a {
+  display: inline-block;
+  padding: 1rem;
+  color: rgb(168, 202, 204);
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+
+nav.horizontal-nav a:hover,
+nav.horizontal-nav a:active {
+  color: rgb(255, 255, 242);
+}
+
+.main-header {
+  color: rgb(255, 255, 242);
+  font-size: 4em;
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+  padding: 1.5em;
+}
+
+/* About Section Styles */
+.about {
+  margin-top: 2em;
+  background-color: rgb(252, 250, 244);
+  padding: 2em 0;
+}
+
+.about-us {
+  font-size: 34px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 2em;
+  padding-top: 1em;
+}
+
+.about-para {
+  font-size: 21px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2em;
+  line-height: 2em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.img {
+  margin-top: 2em;
+}
+
+.img img {
+  width: 80%;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: rgb(38, 90, 91);
+  padding: 20px;
+  color: white;
+}
+
+.footer-head {
+  margin: 0;
+  font-size: 2em;
+}
+
+.footer-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer-nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.footer-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav ul li a:hover,
+.footer-nav ul li a:active {
+  text-decoration: underline;
+}
+
+/* Chat
+/* Button Styles */
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(38, 90, 91);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-button:hover {
+  background-color: rgb(29, 71, 72);
+}

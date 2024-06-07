@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+.header-box {
+  background-color: rgb(38, 90, 91);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizontal-nav {
+  text-align: center;
+}
+
+.horizontal-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.horizontal-nav ul li {
+  display: inline;
+  padding: 0;
+}
+
+.horizontal-nav ul li a {
+  display: inline-block;
+  padding: 1rem;
+  color: rgb(168, 202, 204);
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+
+nav.horizontal-nav a:hover,
+nav.horizontal-nav a:active {
+  color: rgb(255, 255, 242);
+}
+
+.main-header {
+  color: rgb(255, 255, 242);
+  font-size: 4em;
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+  padding: 1.5em;
+}
+
+/* Hero Section Styles */
+.hero {
+  margin-top: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+}
+
+/* Welcome Section Styles */
+.welcome-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.welcome {
+  max-width: 600px;
+  margin: 20px;
+}
+
+.welcome-para {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.welcome-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px;
+}
+
+/* Hours and Location Section Styles */
+.hours-location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.opening-hours,
+.address {
+  max-width: 400px;
+  margin: 20px;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: rgb(38, 90, 91);
+}
+
+.hours {
+  text-align: left;
+}
+
+.meal-time h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: rgb(38, 90, 91);
+}
+
+.address p {
+  margin: 5px 0;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: rgb(38, 90, 91);
+  padding: 20px;
+  color: white;
+}
+
+.footer-head {
+  margin: 0;
+  font-size: 2em;
+}
+
+.footer-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer-nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.footer-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav ul li a:hover,
+.footer-nav ul li a:active {
+  text-decoration: underline;
+}
+/* Chat
+/* Button Styles */
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(38, 90, 91);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-button:hover {
+  background-color: rgb(29, 71, 72);
+}

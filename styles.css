@@ -1,0 +1,94 @@
+/* Update body styles to remove flexbox centering */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Update chat container styles to position it fixed in the bottom right corner */
+.chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(
+    38,
+    90,
+    91
+  ); /* Match your home page header/footer background color */
+  color: #fff; /* Match your home page text color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 20px;
+}
+
+/* Update chat box styles to match the existing chat box design */
+.chat-box {
+  height: 300px;
+  overflow-y: scroll;
+  border: 2px solid #fff; /* Match your home page text color */
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff; /* Match your home page text color */
+  color: #000; /* Match your home page text color */
+  text-align: left;
+}
+
+/* Update input styles to match the existing design */
+input[type="text"] {
+  width: calc(100% - 60px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+/* Update button styles to match the existing design, with single-line fix  */
+/* button {
+  display: inline-block; 
+  width: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(38, 90, 91);
+  color: #fff;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  text-align: center;
+} */
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message strong {
+  color: rgb(38, 90, 91);
+}
+
+.message:last-child {
+  margin-bottom: 0;
+}
+/* Close button styling */
+.close-button {
+  position: absolute;
+  top: 0px; /* Adjust the top position */
+  right: 1px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 28px; /* Increase the font size */
+  font-weight: bold; /* Make the font bolder */
+}
+
+.close-button:hover {
+  color: #ccc;
+}
+
+.chat-overlay {
+  display: none; /* Initially hide the chat overlay */
+}
